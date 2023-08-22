@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    background-color: rgb(232, 186, 232);
+  }
+
+
+  .header{
+    margin-top: 12px;
+  }
+  
+  
+  .head-cont{
+        background: white;
+        width: 535px;
+        max-width: 535px;
+        margin: 0 auto;
+        border-radius: 5px;
+        border-top: 11px solid #691987;
+      
+  }
+
+  .heading{
+    margin: 17px;
+  }
+
+  hr{
+    color: #ccc;
+    margin-bottom: 28px;
+    opacity: 40%;
+  }
+
+  .middle-para{
+    
+    margin: -30px 17px 10px 17px;
+  }
+
+  .para{
+    font-size: 0.75rem;
+    line-height: 20px;
+    margin-top: -10px;
+    opacity: 65%;
+  }
+
+  .p1{
+    display: flex;
+    gap: 4px;
+  }
+
+  .head-bottom{
+    margin: 17px;
+    bottom: 14px;
+    position: relative;
+  }
+
+  form {
+    background-color: #fff;
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 6px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%;
+    padding: 9px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  button[type="submit"] {
+    background-color: #6832a1;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .linear-scale-form{
+    height: 100px;
+  }
+
+  .question{
+    height: 100%;
+  }
+
+  .linear-scale{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 35px;
+  }
+
+  .linear-scale label{
+    display: flex; 
+    flex-direction: column-reverse; 
+    align-items: center; 
+    height: 35px;
+  }
+  
+  span{
+    color: red;
+  }
+
+  .gap-btw{
+    line-height: 39px;
+    height: 100px;
+  }
+
+  .sbmit-cont{
+
+    display: flex;
+    justify-content: center;
+  }
+
+  .sbmit-opt{
+    display: flex;
+    justify-content: space-between;
+    width: 533px;
+
+  }
+
+  button{
+    width: 88px;
+    border-radius: 3px;
+    padding: 15px;
+    font-size: 0.95rem;
+
+  }
+
+  .page{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+  }
+
+  .page-box{
+    height: 8px;
+    width: 127px;
+    background: green;
+    border-radius: 15px;
+
+  }
+
+  input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none; 
+}
+
+/* @media screen and (max-width:525px) {
+    
+   
+} */

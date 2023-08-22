@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <div class="header-box">
+
+            <div class="head-cont">
+
+                <div class="heading">
+                    <h1>Assignment Task</h1>
+                </div>
+                <hr>
+
+                <div class="head-middle">
+
+                    <div class="middle-para">
+
+                        <div class="name-cont">
+                            <div class="p1">
+                                <p>manisharathour05@gmail.com</p>
+                                <p style="color: rgb(26, 133, 205);">Switch account</p>
+                            </div>
+    
+                            <div class="cloud-img">
+    
+                            </div>
+                        </div>
+
+                        <div class="para">
+                           <p>
+                            The name and photo associated with your google account will be recorded when you upload files and submit this form. Your email is not part of your response.
+                           </p>
+                        </div>
+
+                        
+    
+                    </div>
+
+                    
+                </div>
+
+                <hr>
+
+                <div class="head-bottom">
+                    <p><span>*</span> Indicates required question</p>
+                </div>
+
+            </div>
+            </div>
+        </div>
+
+            <div class="cont1">
+
+                <form id="mcq-form">
+
+                <div class="question">
+                    <p>MCQ <span>*</span></p>
+                    <label>
+                      <input type="radio" name="answer" value="1">
+                      Option 1
+                    </label>
+                    <label>
+                      <input type="radio" name="answer" value="2">
+                      Option 2
+                    </label>
+                    <label>
+                      <input type="radio" name="answer" value="3">
+                      Option 3
+                    </label>
+                  </div>
+
+                </form>
+
+            </div>
+
+            <div class="cont2">
+
+                <form id="checkbox-form">                    
+
+                <div class="question">
+                    <p>Checkbox <span>*</span></p>
+                    <label>
+                      <input type="checkbox" name="languages[]" value="Option">
+                      Option 1
+                    </label>
+                    <label>
+                      <input type="checkbox" name="languages[]" value="Option">
+                      Option 2
+                    </label>
+                    <label>
+                      <input type="checkbox" name="languages[]" value="Option">
+                      Option 2
+                    </label>
+
+                  </div>
+
+                </form>
+
+            </div>
+
+            <div class="cont3">
+
+                <form id="short-answer-form">
+                    
+                    <div class="question gap-btw">
+                     <label for="short-answer">Short Answer <span>*</span>
+                    </label>
+                    <input type="text" id="short-answer" name="your answer" required placeholder="your answer">
+                  </div>
+
+                </form>
+
+            </div>
+
+            <div class="cont4">
+
+                <form id="short-answer-form ">
+
+                <div class="question gap-btw">
+                    <label for="paragraph">ParaGraph <span>*</span>
+                    </label>
+                    <input type="text" id="paragraph" name="your answer" required placeholder="your answer">
+                  </div>
+
+                  </form>
+
+            </div>
+
+            <div class="cont5">
+
+                <form id="dropdown-form">
+
+                 <div class="question gap-btw">
+                    <label for="option">Dropdown <span>*</span></label>
+
+                    <select id="option" name="option"  style="font-size: 0.95rem; 
+                    width: 116px;
+                    height: 41px;
+                    outline: none;
+                    padding: 3px;
+                    border: 1px solid #ccc;
+                    background-color: white;">
+                        <option value="" disabled selected>Choose</option>
+                      <option value="option1">option 1</option>
+                      <option value="option2">option 2</option>
+                      <option value="option3">option 3</option>
+                      
+                    </select>
+                  </div>
+                </form>
+
+            </div>
+
+            <div class="cont6">
+
+                <form id="fileForm">
+                    <div class="file-input gap-btw">
+                        <label for="fileInput">File Upload <span>*</span></label>
+                        <input type="file" id="fileInput" name="files[]" multiple>
+                    </div>
+                    
+                </form>
+
+            </div>
+
+
+            <div class="cont7">
+
+                <form id="linear-scale-form">
+                    
+                    <div class="question">
+                        <label for="linear-graph">Linear Graph <span>*</span>
+                    </label>
+                        <div class="linear-scale">
+                            <div class="labels">
+                                <p>worst</p>
+                              </div>
+                          <label>
+                            <input type="radio" name="rating" value="1">
+                            <p>1</p>
+                          </label>
+                          <label>
+                            <input type="radio" name="rating" value="2">
+                            <p>2</p>
+                          </label>
+                          <label>
+                            <input type="radio" name="rating" value="3">
+                            <p>3</p>
+                          </label>
+                          <label>
+                            <input type="radio" name="rating" value="4">
+                            <p>4</p>
+                          </label>
+                          <label>
+                            <input type="radio" name="rating" value="5">
+                            <p>5</p>
+                          </label>
+
+                          <div class="labels">
+                            <p>Best</p>
+                          </div>
+                        </div>
+                        
+                      </div>
+                    
+                  </form>
+
+            </div>
+
+            <div class="cont8">
+
+                <form id="multi-choice-grid-form">
+                    
+                    <div class="question">
+                      <p>Multi choice Grid <span>*</span></p>
+                      
+                      <table class="multi-choice-grid" style="width: 100%;">
+                        <thead style="line-height: 40px;">
+                          <tr>
+                            <th></th>
+                            <td >Column 1</td>
+                            <td>Column 2</td>
+                            <td>Column 3</td>
+                          </tr>
+                        </thead>
+                        <tbody style="line-height: 34px;">
+                          <tr>
+                            <td>Row 1</td>
+                            <td><input type="radio" name="price" value="Column 1"></td>
+                            <td><input type="radio" name="price" value="Column 2"></td>
+                            <td><input type="radio" name="price" value="Column 3"></td>
+                            
+                          </tr>
+                          <tr>
+                            <td>Row 2</td>
+                            <td><input type="radio" name="quality" value="Column 1"></td>
+                            <td><input type="radio" name="quality" value="Column 2"></td>
+                            <td><input type="radio" name="quality" value="Column 3"></td>
+                            
+                          </tr>
+
+                          <tr>
+                            <td>Row 3</td>
+                            <td><input type="radio" name="quality" value="Column 1"></td>
+                            <td><input type="radio" name="quality" value="Column 2"></td>
+                            <td><input type="radio" name="quality" value="Column 3"></td>
+                            
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+                    
+                  </form>
+
+            </div>
+            <div class="cont9">
+
+                <form id="checkbox-grid-form">
+                    
+                    <div class="question">
+                      <p>Tick box Grid <span>*</span></p>
+                      
+                      <table class="checkbox-grid" style="width: 100%;">
+                        <thead style="line-height: 40px;">
+                          <tr>
+                            <th></th>
+                            <td>Column 1</td>
+                            <td>Column 2</td>
+                            <td>Column 3</td>
+                          </tr>
+                        </thead>
+                        <tbody style="line-height: 34px;">
+                          <tr>
+                            <td>Row 1</td>
+                            <td><input type="checkbox" name="categoryA[]" value="Column1"></td>
+                            <td><input type="checkbox" name="categoryA[]" value="Column2"></td>
+                            <td><input type="checkbox" name="categoryA[]" value="Column3"></td>
+                          </tr>
+                          <tr>
+                            <td>Row 2</td>
+                            <td><input type="checkbox" name="categoryB[]" value="Column1"></td>
+                            <td><input type="checkbox" name="categoryB[]" value="Column2"></td>
+                            <td><input type="checkbox" name="categoryB[]" value="Column3"></td>
+                          </tr>
+
+                          <tr>
+                            <td>Row 3</td>
+                            <td><input type="checkbox" name="categoryB[]" value="Column1"></td>
+                            <td><input type="checkbox" name="categoryB[]" value="Column2"></td>
+                            <td><input type="checkbox" name="categoryB[]" value="Column3"></td>
+                          </tr>
+                          
+                        </tbody>
+                      </table>
+                    </div>
+                    
+                   
+                  </form>
+
+
+
+            </div>
+
+            <div class="sbmit-cont">
+
+                <div class="sbmit-opt">
+
+                    <div class="sbmit-btn">
+                        <button type="submit">submit</button>
+                    </div>
+                    <div class="page">
+                        <div class="page-box"></div>
+                        <p>Page 1 of 1</p>
+                    </div>
+                    <div class="clear">
+                        <p style="color: purple;">Clear form</p>
+                    </div>
+
+                </div>
+                
+            </div>
+           
+        </div>
+
+  <br><br>
+  <script src="script.js"></script>
+</body>
+</html>
